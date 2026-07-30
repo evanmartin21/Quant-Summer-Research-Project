@@ -88,12 +88,34 @@ Key findings:
 - GARCH models are more appropriate than ARIMA models for modelling market risk
   
 ---
+
+### Notebook 4 — Black–Scholes Option Pricing
+
+Topics covered:
+
+- European call and put option payoffs
+- Black–Scholes pricing formulas
+- Python implementation of the model
+- Interpretation of $d_1$ and $d_2$
+- Put–call parity validation
+- Option payoff diagrams
+- Application to a real Mini-SPX European option
+- Comparison between the theoretical price and market midpoint
+- Discussion of model assumptions and limitations
+
+Key findings:
+
+- The Python implementation satisfies put–call parity
+- Option value before expiration differs from payoff at maturity
+- Black–Scholes provides a useful theoretical benchmark for European options
+- The selected real-market option produced a theoretical price of 22.32 compared with a market midpoint of 20.44 and a percentage eror of 9.25%
+
+---
  
 ## Planned Research
 
 - Market Microstructure
 - Order book analysis
-- Black–Scholes Option Pricing
 - Binomial Tree Pricing
 - Greeks Calculation
 - Monte Carlo Simulation
