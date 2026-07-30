@@ -2,7 +2,9 @@
 
 A Python-based quantitative research project exploring market microstructure, derivatives pricing, numerical methods, and systematic trading.
 
-The aim of this project is to develop practical quantitative research skills through empirical market analysis in the topics listed previously.
+The aim of this project is to develop practical quantitative research skills through the implementation of financial models, empirical market analysis and statistical techniques commonly used in quantitative research and quantitative trading
+
+The project combines mathematical derivations, statistical modelling and Python implementations, with each notebook documenting both the underlying theory and practical application.
 
 ---
 
@@ -25,7 +27,7 @@ The aim of this project is to develop practical quantitative research skills thr
 
 ### Notebook 1 — Market Data Analysis
 
-Topics covered:
+Topics Covered:
 
 - Download historical SPY data using Yahoo Finance
 - Calculate daily and logarithmic returns
@@ -36,17 +38,17 @@ Topics covered:
 - Investigate skewness and kurtosis
 - Visualise financial time series
 
-Key findings:
+Key Findings:
 
 - Returns are negatively skewed
-- Returns exhibit excess kurtosisx
+- Returns exhibit excess kurtosis
 - Volatility clustering is clearly observed
 
 ---
 
 ### Notebook 2 — Time Series Analysis
 
-Topics covered:
+Topics Covered:
 
 - Stationarity testing using the Augmented Dickey-Fuller test
 - Rolling mean and rolling variance
@@ -56,7 +58,7 @@ Topics covered:
 - Five-day return forecasting
 - Model evaluation
 
-Key findings:
+Key Findings:
 
 - Daily log returns are stationary
 - Very little serial dependence exists
@@ -68,7 +70,7 @@ Key findings:
 
 ### Notebook 3 — Volatility Modelling (GARCH)
 
-Topics covered:
+Topics Covered:
 
 - Review volatility clustering in financial returns
 - Introduction to ARCH and GARCH models
@@ -79,7 +81,7 @@ Topics covered:
 - Five-day volatility forecasting
 - Model evaluation
 
-Key findings:
+Key Findings:
 
 - Financial market volatility exhibits strong persistence
 - Estimated volatility closely tracks periods of heightened market activity
@@ -91,7 +93,7 @@ Key findings:
 
 ### Notebook 4 — Black–Scholes Option Pricing
 
-Topics covered:
+Topics Covered:
 
 - European call and put option payoffs
 - Black–Scholes pricing formulas
@@ -103,12 +105,12 @@ Topics covered:
 - Comparison between the theoretical price and market midpoint
 - Discussion of model assumptions and limitations
 
-Key findings:
+Key Findings:
 
 - The Python implementation satisfies put–call parity
 - Option value before expiration differs from payoff at maturity
 - Black–Scholes provides a useful theoretical benchmark for European options
-- The selected real-market option produced a theoretical price of 22.32 compared with a market midpoint of 20.44 and a percentage eror of 9.25%
+- The selected real-market option produced a theoretical price of 22.32 compared with a market midpoint of 20.44 and a percentage error of 9.25%
 
 ---
 
@@ -131,31 +133,39 @@ Key Findings:
 - Validated the implementation against the Black–Scholes model within a 3.4% error
 
 --- 
- 
-## Planned Research
-
-- Market Microstructure
-- Order book analysis
-- Greeks Calculation
-- Monte Carlo Simulation
-- Volatility Surface Analysis
-- Systematic Trading Strategy Backtesting
-
----
 
 ## Technologies Used
 
+Development Environment:
+
 - Python
 - Jupyter Notebook
+
+Data Analysis: 
+
 - NumPy
 - pandas
-- Matplotlib
-- yFinance
-- Statsmodels
-- Arch
-- Git & GitHub
 - SciPy
-- Scikit-Learn
+
+Financial Data:
+
+- yfinance
+
+Statistical Modelling:
+
+- statsmodels
+- arch
+- scikit-learn
+
+Visualisation:
+
+- Matplotlib
+
+Version Control:
+
+- Git
+- GitHub
+
 
 ---
 
