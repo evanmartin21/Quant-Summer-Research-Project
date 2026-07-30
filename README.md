@@ -63,6 +63,29 @@ Key findings:
 - ARIMA captures limited short-term linear structure
 - Forecasts rapidly converge to the historical mean
 - Financial returns exhibit changing volatility, motivating more advanced models such as GARCH
+
+---
+
+### Notebook 3 — Volatility Modelling (GARCH)
+
+Topics covered:
+
+- Review volatility clustering in financial returns
+- Introduction to ARCH and GARCH models
+- GARCH(1,1) model estimation
+- Interpretation of ARCH and GARCH parameters
+- Estimation of conditional volatility
+- Comparison of estimated volatility with realised absolute returns
+- Five-day volatility forecasting
+- Model evaluation
+
+Key findings:
+
+- Financial market volatility exhibits strong persistence
+- Estimated volatility closely tracks periods of heightened market activity
+- The GARCH model successfully captures volatility clustering
+- Volatility forecasts revert gradually towards the long-run equilibrium
+- GARCH models are more appropriate than ARIMA models for modelling market risk
   
 ---
  
@@ -70,7 +93,6 @@ Key findings:
 
 - Market Microstructure
 - Order book analysis
-- GARCH volatility modelling
 - Black–Scholes Option Pricing
 - Binomial Tree Pricing
 - Greeks Calculation
@@ -87,7 +109,12 @@ Key findings:
 - NumPy
 - pandas
 - Matplotlib
-- yfinance
+- yFinance
+- Statsmodels
+- Arch
+- Git & GitHub
+- SciPy
+- Scikit-Learn
 
 ---
 
