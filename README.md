@@ -6,6 +6,21 @@ The aim of this project is to develop practical quantitative research skills thr
 
 ---
 
+## Research Notebooks
+
+1. Market Data Analysis
+2. Time Series Analysis
+3. Volatility Modelling (GARCH)
+4. Black–Scholes Option Pricing
+5. Binomial Tree Option Pricing
+6. Greeks and Sensitivity Analysis
+7. Monte Carlo Option Pricing
+8. Market Microstructure Analysis
+9. Order Book Dynamics
+10. Final Research Report
+
+---
+
 ## Completed Research
 
 ### Notebook 1 — Market Data Analysis
