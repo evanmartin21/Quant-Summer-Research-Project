@@ -5,24 +5,57 @@ A Python-based quantitative research project exploring market microstructure, de
 The aim of this project is to develop practical quantitative research skills through empirical market analysis in the topics listed previously.
 
 ---
-## Completed
 
-### 1. Market Data Analysis
+## Completed Research
 
-- Downloaded and cleaned historical SPY market data
-- Calculated simple and logarithmic returns
-- Analysed return distributions
+### Notebook 1 — Market Data Analysis
+
+Topics covered:
+
+- Download historical SPY data using Yahoo Finance
+- Calculate daily and logarithmic returns
+- Analyse return distributions
 - Calculated annualised return and volatility
-- Investigated skewness and kurtosis
-- Calculated 30-day rolling volatility
 - Produced visualisations of price, returns and volatility
 - Summarised statistical findings
+- Investigate skewness and kurtosis
+- Visualise financial time series
+
+Key findings:
+
+- Returns are negatively skewed
+- Returns exhibit excess kurtosis
+- Volatility clustering is clearly observed
 
 ---
+
+### Notebook 2 — Time Series Analysis
+
+Topics covered:
+
+- Stationarity testing using the Augmented Dickey-Fuller test
+- Rolling mean and rolling variance
+- Autocorrelation Function (ACF)
+- Partial Autocorrelation Function (PACF)
+- ARIMA(1,0,1) modelling
+- Five-day return forecasting
+- Model evaluation
+
+Key findings:
+
+- Daily log returns are stationary
+- Very little serial dependence exists
+- ARIMA captures limited short-term linear structure
+- Forecasts rapidly converge to the historical mean
+- Financial returns exhibit changing volatility, motivating more advanced models such as GARCH
   
+---
+ 
 ## Planned Research
 
 - Market Microstructure
+- Order book analysis
+- GARCH volatility modelling
 - Black–Scholes Option Pricing
 - Binomial Tree Pricing
 - Greeks Calculation
