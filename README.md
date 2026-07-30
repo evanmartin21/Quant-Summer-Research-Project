@@ -13,8 +13,8 @@ The aim of this project is to develop practical quantitative research skills thr
 3. Volatility Modelling (GARCH)
 4. Black–Scholes Option Pricing
 5. Binomial Tree Option Pricing
-6. Greeks and Sensitivity Analysis
-7. Monte Carlo Option Pricing
+6. Monte Carlo Option Pricing
+7. Greeks and Sensitivity Analysis
 8. Market Microstructure Analysis
 9. Order Book Dynamics
 10. Final Research Report
@@ -39,7 +39,7 @@ Topics covered:
 Key findings:
 
 - Returns are negatively skewed
-- Returns exhibit excess kurtosis
+- Returns exhibit excess kurtosisx
 - Volatility clustering is clearly observed
 
 ---
@@ -111,12 +111,31 @@ Key findings:
 - The selected real-market option produced a theoretical price of 22.32 compared with a market midpoint of 20.44 and a percentage eror of 9.25%
 
 ---
+
+### Notebook 5 - Binomial Tree Option Pricing
+
+Topics Covered:
+
+- One-period binomial option pricing
+- Risk-neutral valuation
+- Cox–Ross–Rubinstein parameter derivation
+- Multi-step recombining stock price trees
+- Backward induction algorithm
+- European call option pricing
+- Comparison with the Black–Scholes analytical solution
+
+Key Findings:
+
+- Built a recombining binomial stock price tree in Python
+- Implemented backward induction to value European options
+- Validated the implementation against the Black–Scholes model within a 3.4% error
+
+--- 
  
 ## Planned Research
 
 - Market Microstructure
 - Order book analysis
-- Binomial Tree Pricing
 - Greeks Calculation
 - Monte Carlo Simulation
 - Volatility Surface Analysis
