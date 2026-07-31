@@ -157,8 +157,6 @@ Key Findings:
 
 ### Notebook 7 - Greeks and Sensitivity Analysis
 
-Implemented the five principal Black–Scholes Greeks and validated analytical formulas against finite-difference approximations.
-
 Topics Covered: 
 
 - Delta
@@ -175,6 +173,27 @@ Key Findings:
 - Implemented numerical finite-difference approximations.
 - Validated numerical estimates against analytical solutions.
 - Analysed how option sensitivities vary with the underlying asset price.
+
+---
+
+### Notebook 8: Implied Volatility Surface
+
+Topics Covered:
+
+- Option chain data
+- Black–Scholes inversion
+- Brent's root-finding algorithm
+- Volatility smiles
+- Implied volatility surface
+- Data cleaning
+- Numerical methods
+
+Key Findings:
+
+- Recovered implied volatilities from market option prices.
+- Constructed volatility smiles across multiple expirations.
+- Visualised the implied volatility surface.
+- Demonstrated departures from the constant-volatility assumption of the Black–Scholes model.
 
 ---
 
