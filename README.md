@@ -134,6 +134,24 @@ Key Findings:
 
 --- 
 
+### Notebook 6 - Monte Carlo Option Pricing
+
+Topics Covered:
+
+- Geometric Brownian Motion
+- Risk-neutral valuation
+- Exact solution of GBM
+- Monte Carlo simulation algorithm
+- European call and put option pricing
+- Comparison with the Black–Scholes model
+
+Key Findings:
+
+- Derived the risk-neutral Monte Carlo pricing framework from Geometric Brownian Motion.
+- Implemented a Monte Carlo simulator for European call and put options in Python.
+- Estimated option prices by averaging discounted simulated payoffs.
+- Validated the implementation against the Black–Scholes analytical solution, obtaining a relative difference of approximately 0.42%.
+
 ## Technologies Used
 
 Development Environment:
