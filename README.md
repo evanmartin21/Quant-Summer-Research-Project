@@ -17,9 +17,10 @@ The project combines mathematical derivations, statistical modelling and Python 
 5. Binomial Tree Option Pricing
 6. Monte Carlo Option Pricing
 7. Greeks and Sensitivity Analysis
-8. Market Microstructure Analysis
-9. Order Book Dynamics
-10. Final Research Report
+8. Implied Volatility Surface
+9. Market Microstructure Analysis
+10. Order Book Dynamics
+11. Final Research Report
 
 ---
 
