@@ -153,6 +153,31 @@ Key Findings:
 - Estimated option prices by averaging discounted simulated payoffs.
 - Validated the implementation against the Black–Scholes analytical solution, obtaining a relative difference of approximately 0.42%.
 
+---
+
+### Notebook 7 - Greeks and Sensitivity Analysis
+
+Implemented the five principal Black–Scholes Greeks and validated analytical formulas against finite-difference approximations.
+
+Topics Covered: 
+
+- Delta
+- Gamma
+- Vega
+- Theta
+- Rho
+- Finite-difference methods
+- Sensitivity analysis
+
+Key Findings:
+
+- Derived analytical expressions for the Black–Scholes Greeks.
+- Implemented numerical finite-difference approximations.
+- Validated numerical estimates against analytical solutions.
+- Analysed how option sensitivities vary with the underlying asset price.
+
+---
+
 ## Technologies Used
 
 Development Environment:
